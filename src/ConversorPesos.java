@@ -6,6 +6,7 @@ public class ConversorPesos {
 	// Valor euro en Colombia 1 EUR = 5025.49 COP 30/03/23
 	// Valor yen en Colombia 1 JPY = 34.99 COP 30/03/23
 	// Valor libra esterlina en Colombia 1 GBP = 5710.65 COP 30/03/23
+	// valor won sur coreano en Colombia 1 KRW = 3.50 COP 04/04/23 
 
 	public void pesoAMoneda(double valor,double tasaCambio,String nombreMoneda) {
 		double moneda = valor / tasaCambio;
