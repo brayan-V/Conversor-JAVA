@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class MenuConversion {
+public class MenuMoneda {
 
 	ConversorPesos monedas = new ConversorPesos();
 	
