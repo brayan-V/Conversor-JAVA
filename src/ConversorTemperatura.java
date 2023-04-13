@@ -8,7 +8,7 @@ public class ConversorTemperatura {
 				+fahrenheit,null,0,null);
 	}
 	public void fahrenheitACelsius(double temperatura) {
-		double celsius =(temperatura-32)/1.8;
+		double celsius =Math.round((temperatura-32)/1.8);
 		JOptionPane.showMessageDialog(null, "Tu temperatura en grados Celsius es de: "
 				+celsius,null,0,null);
 	}
